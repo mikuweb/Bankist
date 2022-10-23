@@ -1,5 +1,11 @@
 'use strict';
 
+const arr = ["a", "b", "c"];
+
+arr.forEach(c => {
+  console.log(c)
+})
+
 // Get element
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
